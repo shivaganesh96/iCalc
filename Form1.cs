@@ -33,7 +33,7 @@ namespace WindowsFormsApplication1
 
         private void button_Click(object sender, EventArgs e)
         {
-            //  result.Text = null;
+        
             if (result.Text == "0")
             {
                 result.Text = null;
@@ -115,22 +115,7 @@ namespace WindowsFormsApplication1
                         result.Text = result.Text + keyhold;
                         break;
                     }
-               /* case '*':
-                case '+':
-                case '-':
-                case '/':
-                    {
-                        keyhold = keyhold + e.KeyChar;
-                        operate.Text = keyhold;
-                        hold = result.Text;
-                        result.Text = "0";
-                        break;
-                    }
-                case '=':
-                    {
-                        final(sender, e);
-                        break;
-                    }*/
+        
                 default:
                     break;
             }
@@ -140,11 +125,7 @@ namespace WindowsFormsApplication1
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
-            /*  if (e.KeyCode == KeyCode.D5))
-              {
-                  //Assuming button5 will set the value 5
-                  button8.PerformClick();
-              }*/
+          
 
         }
 
